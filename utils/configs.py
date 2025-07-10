@@ -9,8 +9,12 @@ GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
 BOOKING_COM_API_KEY = os.getenv("BOOKING_COM_API_KEY")
 EXCHANGE_RATE_API_KEY = os.getenv("EXCHANGE_RATE_API_KEY")
 
-WEATHER_BASE_URL = "http://api.weatherapi.com/v1" # WeatherAPI.com
+WEATHER_BASE_URL = "https://api.weatherapi.com/v1" # WeatherAPI.com
+
+"https://api.weatherapi.com/v1/current.json?key={WEATHER_API_KEY}&q={PLACE}&aqi=yes"
+
 GOOGLE_PLACES_BASE_URL = "https://maps.googleapis.com/maps/api/place"
+
 BOOKING_COM_BASE_URL = "https://booking-com.p.rapidapi.com" # RapidAPI endpoint
 EXCHANGE_RATE_BASE_URL = "https://v6.exchangerate-api.com/v6"
 
