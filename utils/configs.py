@@ -8,6 +8,7 @@ WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
 BOOKING_COM_API_KEY = os.getenv("BOOKING_COM_API_KEY")
 EXCHANGE_RATE_API_KEY = os.getenv("EXCHANGE_RATE_API_KEY")
+EURI_API_KEY = os.getenv("EURI_API_KEY")
 
 WEATHER_BASE_URL = "https://api.weatherapi.com/v1" # WeatherAPI.com
 

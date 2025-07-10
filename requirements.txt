@@ -7,6 +7,7 @@ fastapi
 streamlit
 pydantic 
 langgraph 
+euriai
 -e .
 
 
