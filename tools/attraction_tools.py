@@ -35,7 +35,7 @@ def get_attraction_place(location:str,interests:List[str],num_results:int):
         raise
     
 @tool
-def get_attraction_place_tool(location:str,interests:List[str],num_results:int):
+def get_attraction_place_tool(location:str,interests:List[str],num_results:int=5):
     """ Searches for popular attractions and activities in a given location based on specified interests."""
     return get_attraction_place(location=location,interests=interests,num_results=num_results)
 
