@@ -16,10 +16,10 @@ WEATHER_BASE_URL = "https://api.weatherapi.com/v1" # WeatherAPI.com
 GOOGLE_PLACES_BASE_URL = "https://maps.googleapis.com/maps/api/place"
 
 BOOKING_COM_BASE_URL = "https://booking-com.p.rapidapi.com" # RapidAPI endpoint
-EXCHANGE_RATE_BASE_URL = "https://v6.exchangerate-api.com/v6"
+EXCHANGE_RATE_BASE_URL = " https://v6.exchangerate-api.com/v6"
 
 LLM_MODEL_NAME = "llama-3.3-70b-versatile" 
-TEMPERATURE = 0.7
+TEMPERATURE = 0.
 
 
 
